@@ -1,0 +1,10 @@
+szamok = [120, 9, 5, 24, 6, 17, -45, 92, 15, 48, 57]
+
+oszthato_es_paros = []
+
+for i in szamok:
+    if i % 3 == 0 and i % 2 == 0:
+        oszthato_es_paros.append(i)
+
+
+print(oszthato_es_paros)
